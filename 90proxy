@@ -1,0 +1,5 @@
+# -*- mode: conf; -*-
+
+# mega can't be directly accessed, so I have to use a proxy. The http
+# proxy is converted from socks5 proxy by privoxy.
+Acquire::http::Proxy::mega.nz "http://127.0.0.1:8118";

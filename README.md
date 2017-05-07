@@ -1,7 +1,9 @@
-# fonts.conf
+# configuration
 
-/etc/fonts/local.conf contains local configurations of fontconfig.
+My backup of important configuration.
 
-/etc/fonts/fonts.conf is a system level configuration which shouldn't
-be modified locally, thus it's unnecessary to track it in a repo.
+* /etc/apt/apt.conf.d/90proxy -> 90proxy
 
+* /etc/fonts/local.conf -> local.conf
+
+* ~/.mbsyncrc -> .mbsyncrc
