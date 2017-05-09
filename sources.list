@@ -1,0 +1,39 @@
+#   -*- mode: conf; -*-
+#------------------------------------------------------------------------------#
+#                   OFFICIAL DEBIAN REPOS
+#------------------------------------------------------------------------------#
+
+###### Debian Main Repos
+deb http://ftp.cn.debian.org/debian/ jessie main contrib non-free
+# deb http://ftp.cn.debian.org/debian/ testing main contrib non-free
+# deb http://ftp.us.debian.org/debian/ testing main contrib non-free
+deb-src http://ftp.cn.debian.org/debian/ jessie main contrib non-free
+
+###### Debian Update Repos
+deb http://security.debian.org/ jessie/updates main contrib non-free
+deb http://ftp.cn.debian.org/debian/ jessie-proposed-updates main contrib non-free
+deb-src http://security.debian.org/ jessie/updates main contrib non-free
+deb-src http://ftp.cn.debian.org/debian/ jessie-proposed-updates main contrib non-free
+deb http://ftp.cn.debian.org/debian jessie-backports main
+
+#------------------------------------------------------------------------------#
+#                      UNOFFICIAL  REPOS                       #
+#------------------------------------------------------------------------------#
+
+###### 3rd Party Binary Repos
+
+#### Debian Multimedia - http://deb-multimedia.org/
+## Run this command: apt-get update && apt-get install deb-multimedia-keyring && apt-get update
+deb http://www.deb-multimedia.org stable main non-free
+# deb http://www.deb-multimedia.org stable-backports main
+
+#### Dropbox - http://dropbox.com
+## Run this command: apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
+# deb http://linux.dropbox.com/debian/ jessie main
+
+# for emacs-snapshot
+deb http://londo.ganneff.de stable main
+
+# deb http://download.webmin.com/download/repository sarge contrib
+# deb http://webmin.mirror.somersettechsolutions.co.uk/repository sarge contrib
+
