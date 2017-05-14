@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Zotero
+Exec=/opt/Zotero_linux-x86_64/run-zotero.sh
+Icon=/opt/Zotero_linux-x86_64/chrome/icons/default/main-window.ico
+Type=Application
+Categories=Development;

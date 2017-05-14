@@ -15,3 +15,5 @@ My backup of important configuration.
 * ~/.profile -> .profile
 
 * ~/.bash\_aliases -> .bash\_aliases
+
+* ~/.local/share/applications/zotero.desktop -> zotero.desktop
