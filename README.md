@@ -9,3 +9,9 @@ My backup of important configuration.
 * /etc/fonts/local.conf -> local.conf
 
 * ~/.mbsyncrc -> .mbsyncrc
+
+* ~/.bashrc -> .bashrc
+
+* ~/.profile -> .profile
+
+* ~/.bash\_aliases -> .bash\_aliases
