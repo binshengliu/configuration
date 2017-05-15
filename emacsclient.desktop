@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=GNU Emacs Client
+Comment=GNU Emacs Client
+Exec=env LC_CTYPE=zh_CN.UTF-8 proxychains emacsclient -a "" -c %F
+TryExec=emacs
+Icon=/usr/share/icons/hicolor/scalable/apps/emacs-snapshot.svg
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Utility;Development;TextEditor;
+StartupWMClass=Emacs
