@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=xflux -l 30.8233 -g 103.8768
+Hidden=false
+X-GNOME-Autostart-enabled=true
+Name=f.lux
+Comment=f.lux

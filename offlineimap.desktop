@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Exec=offlineimap -u basic -l .offlineimap.log
+Hidden=false
+X-GNOME-Autostart-enabled=false
+Name=Offlineimap
+Comment=offlineimap
+
+# Gracefully exit
+# kill -SIGUSR2 `ps -ef | grep offlineimap | grep -v grep | awk '{print $2}'`
+# See ~/.offlineimaprc for configuration.
+# offlineimap -u basic -l .offlineimap.log &
