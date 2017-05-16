@@ -6,6 +6,6 @@ TryExec=emacs
 Icon=/usr/share/icons/hicolor/scalable/apps/emacs-snapshot.svg
 Terminal=false
 Type=Application
-StartupNotify=true
+StartupNotify=false
 Categories=Utility;Development;TextEditor;
 StartupWMClass=Emacs
