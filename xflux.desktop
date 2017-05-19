@@ -5,3 +5,7 @@ Hidden=false
 X-GNOME-Autostart-enabled=true
 Name=f.lux
 Comment=f.lux
+Icon=/usr/local/share/icons/hicolor/256x256/apps/flux-icon-big.png
+
+# Icon source:
+# https://justgetflux.com/flux-icon-big.png
