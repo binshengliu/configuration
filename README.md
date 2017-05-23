@@ -20,6 +20,8 @@ My backup of important configuration.
 
 * ~/.gitconfig -> .gitconfig
 
+* ~/.gdbinit -> .gdbinit
+
 * ~/.local/share/applications/zotero.desktop -> zotero.desktop
 
 * ~/.local/share/applications/emacsclient.desktop -> emacsclient.desktop
