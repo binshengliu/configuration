@@ -8,7 +8,7 @@ My backup of important configuration.
 
 * /etc/fonts/local.conf -> local.conf
 
-* ~/.mbsyncrc -> .mbsyncrc
+* ~/Dropbox/backup/.mbsyncrc -> .mbsyncrc
 
 * ~/.bashrc -> .bashrc
 
@@ -18,7 +18,7 @@ My backup of important configuration.
 
 * ~/.bash\_aliases -> .bash\_aliases
 
-* ~/.gitconfig -> .gitconfig
+* ~/Dropbox/backup/.gitconfig -> .gitconfig
 
 * ~/.gdbinit -> .gdbinit
 
