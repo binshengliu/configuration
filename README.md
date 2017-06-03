@@ -8,6 +8,8 @@ My backup of important configuration.
 
 * /etc/fonts/local.conf -> local.conf
 
+* /etc/proxychains.conf -> proxychains.conf
+
 * ~/Dropbox/backup/.mbsyncrc -> .mbsyncrc
 
 * ~/.bashrc -> .bashrc
