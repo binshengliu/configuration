@@ -35,3 +35,5 @@ export BIBINPUTS="$BIBINPUTS:~/code/bib"
 # linked_list functions
 export PYTHONPATH=/home/lbs/code/leetcode/linked_list:
 export WORKON_HOME=~/.venv
+
+export PATH="$HOME/.cargo/bin:$PATH"
