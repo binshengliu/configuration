@@ -1,0 +1,11 @@
+{
+    "source":"https://doub.io/sszhfx/",
+    "decoder":"https://www.base64decode.org/",
+    "server":"216.189.158.147",
+    "server_port":33205,
+    "local_address": "127.0.0.1",
+    "local_port":7072,
+    "password":"doub.io33205",
+    "timeout":300,
+    "method":"chacha20"
+}
