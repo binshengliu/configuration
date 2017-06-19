@@ -31,3 +31,6 @@ deb http://londo.ganneff.de stretch main
 ###Skype
 # Only stable
 deb [arch=amd64] https://repo.skype.com/deb stable main
+
+###Virtualbox
+deb [arch=i386,amd64] http://download.virtualbox.org/virtualbox/debian stretch contrib non-free
