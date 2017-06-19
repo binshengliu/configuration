@@ -4,3 +4,5 @@
 # proxy is converted from socks5 proxy by privoxy.
 Acquire::http::Proxy::mega.nz "http://127.0.0.1:8118";
 Acquire::http::Proxy::www.scootersoftware.com "http://127.0.0.1:8118";
+Acquire::http::Proxy::dl.google.com "http://127.0.0.1:8118";
+Acquire::http::Proxy::londo.ganneff.de "http://127.0.0.1:8118";
