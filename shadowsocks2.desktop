@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Exec=sslocal -c /home/lbs/code/configuration/shadowsocks-45.55.114.107.json
+Name=Shadowsocks 2
+Comment=Proxy
+Icon=/usr/local/share/icons/hicolor/128x128/apps/ssw128.png
+
+# Shadowsocks config file:
+# https://github.com/shadowsocks/shadowsocks/wiki/Configuration-via-Config-File
+
+# Icon source:
+# https://github.com/shadowsocks/shadowsocks-windows/blob/master/shadowsocks-csharp/Resources/ssw128.png

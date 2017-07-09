@@ -2,7 +2,7 @@
     "server":"45.55.114.107",
     "server_port":4321,
     "local_address": "127.0.0.1",
-    "local_port":7070,
+    "local_port":7071,
     "password":"epix4321epix4321",
     "timeout":300,
     "method":"chacha20"
