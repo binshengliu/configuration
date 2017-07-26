@@ -10,6 +10,8 @@ My backup of important configuration.
 
 * /etc/proxychains.conf -> proxychains.conf
 
+* /etc/privoxy/config -> config
+
 * ~/Dropbox/backup/.mbsyncrc -> .mbsyncrc
 
 * ~/.bashrc -> .bashrc
