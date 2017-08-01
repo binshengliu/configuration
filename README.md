@@ -37,3 +37,5 @@ My backup of important configuration.
 * ~/.config/autostart/shadowsocks.desktop -> shadowsocks.desktop
 
 * ~/.config/autostart/offlineimap.desktop -> offlineimap.desktop
+
+* ~/.config/aria2/aria2.conf -> aria2c.conf
