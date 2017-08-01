@@ -39,3 +39,5 @@ My backup of important configuration.
 * ~/.config/aria2/aria2.conf -> aria2c.conf
 
 * ~/.config/youtube-dl/config -> youtube-dl.config
+
+* ~/.netease-musicbox/config.json -> netease-musicbox-config.json

@@ -1,0 +1,108 @@
+{
+  "osdlyrics_on_top": {
+    "describe": "Desktop lyrics OnTopHint.",
+    "value": true,
+    "default": true
+  },
+  "cache": {
+    "describe": "A toggle to enable cache function or not. Set value to true to enable it.",
+    "value": false,
+    "default": false
+  },
+  "global_play_pause": {
+    "describe": "Global keybind for play/pause.Uses gtk notation for keybinds.",
+    "value": "<ctrl><alt>p",
+    "default": "<ctrl><alt>p"
+  },
+  "osdlyrics_size": {
+    "describe": "Desktop lyrics area size.",
+    "value": [
+      600,
+      60
+    ],
+    "default": [
+      600,
+      60
+    ]
+  },
+  "osdlyrics": {
+    "describe": "Desktop lyrics for musicbox.",
+    "value": false,
+    "default": false
+  },
+  "global_previous": {
+    "describe": "Global keybind for previous song.Uses gtk notation for keybinds.",
+    "value": "<ctrl><alt>k",
+    "default": "<ctrl><alt>k"
+  },
+  "notifier": {
+    "describe": "Notifier when switching songs.",
+    "value": false,
+    "default": true
+  },
+  "osdlyrics_background": {
+    "describe": "Desktop lyrics background color.",
+    "value": "rgba(100, 100, 100, 120)",
+    "default": "rgba(100, 100, 100, 120)"
+  },
+  "mpg123_parameters": {
+    "describe": "The additional parameters when mpg123 start.",
+    "value": [],
+    "default": []
+  },
+  "global_next": {
+    "describe": "Global keybind for next song.Uses gtk notation for keybinds.",
+    "value": "<ctrl><alt>j",
+    "default": "<ctrl><alt>j"
+  },
+  "osdlyrics_font": {
+    "describe": "Desktop lyrics font-family and font-size.",
+    "value": [
+      "Decorative",
+      16
+    ],
+    "default": [
+      "Decorative",
+      16
+    ]
+  },
+  "osdlyrics_color": {
+    "describe": "Desktop lyrics RGB Color.",
+    "value": [
+      225,
+      248,
+      113
+    ],
+    "default": [
+      225,
+      248,
+      113
+    ]
+  },
+  "aria2c_parameters": {
+    "describe": "The additional parameters when aria2c start to download something.",
+    "value": ["--all-proxy="],
+    "default": []
+  },
+  "translation": {
+    "describe": "Foreign language lyrics translation.",
+    "value": true,
+    "default": true
+  },
+  "curses_transparency": {
+    "describe": "Set true to make curses transparency.",
+    "value": false,
+    "default": false
+  },
+  "version": 8,
+  "osdlyrics_transparent": {
+    "describe": "Desktop lyrics transparent bg.",
+    "value": false,
+    "default": false
+  },
+  "music_quality": {
+    "describe": "Select the quality of the music. May be useful when network is terrible. 0 for high quality, 1 for medium and 2 for low.",
+    "value": 0,
+    "default": 0
+  }
+}
