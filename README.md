@@ -22,8 +22,6 @@ My backup of important configuration.
 
 * ~/.bash\_aliases -> .bash\_aliases
 
-* ~/Dropbox/backup/.gitconfig -> .gitconfig
-
 * ~/.gdbinit -> .gdbinit
 
 * ~/.local/share/applications/zotero.desktop -> zotero.desktop
