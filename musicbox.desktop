@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=musicbox
+Hidden=false
+Name=NetEase Musicbox
+Icon=/usr/local/share/icons/hicolor/scalable/apps/netease-cloud-music.svg
+Terminal=true
+
+# https://github.com/darknessomi/musicbox
+# The svn icon is extracted from http://s1.music.126.net/download/pc/netease-cloud-music_1.0.0-2_amd64_ubuntu16.04.deb

@@ -30,6 +30,8 @@ My backup of important configuration.
 
 * ~/.local/share/applications/emacsclient.desktop -> emacsclient.desktop
 
+* ~/.local/share/applications/musicbox.desktop -> musicbox.desktop
+
 * ~/.config/autostart/xflux.desktop -> xflux.desktop
 
 * ~/.config/autostart/shadowsocks.desktop -> shadowsocks.desktop
