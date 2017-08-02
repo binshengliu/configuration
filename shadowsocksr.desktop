@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
-Exec=sslocal -c /home/lbs/code/configuration/shadowsocks-103.35.57.108.json
-Name=Shadowsocks 3
+Exec=python3 /home/lbs/src/shadowsocksr/shadowsocks/local.py -c /etc/shadowsocksr.json
+Name=ShadowsocksR
 Comment=Proxy
 Icon=/usr/local/share/icons/hicolor/128x128/apps/ssw128.png
 
