@@ -25,6 +25,9 @@ deb-src https://ftp.cn.debian.org/debian/ stretch-backports main
 deb https://ftp.cn.debian.org/deb-multimedia/ stretch main non-free
 # deb https://ftp.cn.debian.org/deb-multimedia/ stretch-backports main non-free
 
+###Spotify
+deb http://repository.spotify.com stable non-free
+
 # for emacs-snapshot
 # deb http://londo.ganneff.de stretch main
 
