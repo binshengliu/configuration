@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Eclipse
+Terminal=false
+Comment=Java Integrated Development Environment
+Icon=/opt/eclipse/icon.xpm
+Path=/opt/eclipse
+Exec=/usr/local/bin/eclipse
+Categories=Development;IDE
