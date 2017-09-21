@@ -4,17 +4,17 @@
 #------------------------------------------------------------------------------#
 
 ###### Debian Main Repos
-deb https://ftp.cn.debian.org/debian/ stretch main contrib non-free
-deb-src https://ftp.cn.debian.org/debian/ stretch main contrib non-free
+deb http://ftp.cn.debian.org/debian/ stretch main contrib non-free
+deb-src http://ftp.cn.debian.org/debian/ stretch main contrib non-free
 
-deb https://ftp.cn.debian.org/debian/ stretch-updates main contrib non-free
-deb-src https://ftp.cn.debian.org/debian/ stretch-updates main contrib non-free
+deb http://ftp.cn.debian.org/debian/ stretch-updates main contrib non-free
+deb-src http://ftp.cn.debian.org/debian/ stretch-updates main contrib non-free
 
-deb https://ftp.cn.debian.org/debian-security/ stretch/updates main
-deb-src https://ftp.cn.debian.org/debian-security/ stretch/updates main
+deb http://ftp.cn.debian.org/debian-security/ stretch/updates main
+deb-src http://ftp.cn.debian.org/debian-security/ stretch/updates main
 
-deb https://ftp.cn.debian.org/debian/ stretch-backports main
-deb-src https://ftp.cn.debian.org/debian/ stretch-backports main
+deb http://ftp.cn.debian.org/debian/ stretch-backports main
+deb-src http://ftp.cn.debian.org/debian/ stretch-backports main
 
 #------------------------------------------------------------------------------#
 #                      UNOFFICIAL  REPOS
@@ -22,8 +22,8 @@ deb-src https://ftp.cn.debian.org/debian/ stretch-backports main
 
 ###### 3rd Party Binary Repos
 ###Debian Multimedia
-deb https://ftp.cn.debian.org/deb-multimedia/ stretch main non-free
-# deb https://ftp.cn.debian.org/deb-multimedia/ stretch-backports main non-free
+deb http://ftp.cn.debian.org/deb-multimedia/ stretch main non-free
+# deb http://ftp.cn.debian.org/deb-multimedia/ stretch-backports main non-free
 
 ###Spotify
 deb http://repository.spotify.com stable non-free
