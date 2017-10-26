@@ -37,4 +37,4 @@ export PYTHONPATH=/home/lbs/code/leetcode/linked_list:
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export WORKON_HOME=~/.venv
 
-export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$HOME/src/FlameGraph:$PATH"
