@@ -115,3 +115,14 @@ fi
 if [ -f ~/.config/exercism/exercism_completion.bash ]; then
   . ~/.config/exercism/exercism_completion.bash
 fi
+
+export DEBEMAIL="liubinsheng@gmail.com"
+export DEBFULLNAME="Binsheng Liu"
+
+# mc related
+export HISTCONTROL=ignoreboth
+. /usr/lib/mc/mc.sh
+
+alias dquilt="quilt --quiltrc=${HOME}/.quiltrc-dpkg"
+complete -F _quilt_completion $_quilt_complete_opt dquilt
+
