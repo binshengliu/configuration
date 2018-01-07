@@ -126,3 +126,4 @@ export HISTCONTROL=ignoreboth
 alias dquilt="quilt --quiltrc=${HOME}/.quiltrc-dpkg"
 complete -F _quilt_completion $_quilt_complete_opt dquilt
 
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
