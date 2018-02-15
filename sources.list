@@ -29,7 +29,7 @@ deb http://ftp.cn.debian.org/debian-multimedia/ stretch main non-free
 deb http://repository.spotify.com stable non-free
 
 # for emacs-snapshot
-# deb http://londo.ganneff.de stretch main
+deb http://londo.ganneff.de stretch main
 
 ###Virtualbox
 deb [arch=i386,amd64] http://download.virtualbox.org/virtualbox/debian stretch contrib non-free
