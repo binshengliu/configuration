@@ -21,4 +21,4 @@ set -g theme_display_git_ahead_verbose yes
 
 set -g theme_title_use_abbreviated_path no
 
-alias drive="env http_proxy=127.0.0.1:8118 https_proxy=127.0.0.1:8118 drive"
+# alias drive="env http_proxy=127.0.0.1:8118 https_proxy=127.0.0.1:8118 drive"
