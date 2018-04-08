@@ -21,10 +21,6 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-if [ -d "$HOME/.local/bin" ] ; then
-    PATH="$HOME/.local/bin:$PATH"
-fi
-
 export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWUNTRACKEDFILES=1
 export ALTERNATE_EDITOR=""
@@ -36,9 +32,6 @@ export GTAGSFORCECPP=1
 export OSFONTDIR="$OSFONTDIR:~/.fonts"
 export BIBINPUTS="$BIBINPUTS:~/code/bib"
 
-# linked_list functions
-export PYTHONPATH=/home/lbs/code/leetcode/linked_list:
-export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
-export WORKON_HOME=~/.venv
-
-export PATH="$HOME/.cargo/bin:$HOME/src/FlameGraph:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/src/FlameGraph:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
