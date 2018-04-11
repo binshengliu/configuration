@@ -1,0 +1,59 @@
+# ln -s path/to/this/file ~/.gitconfig
+
+[user]
+	name = Binsheng Liu
+	email = 441707+binshengliu@users.noreply.github.com
+[color]
+	status = auto
+	branch = auto
+	ui = auto
+	diff = auto
+	interactive = auto
+[alias]
+	ci = commit
+	co = checkout
+	tree = log --graph --decorate --oneline
+	st = status
+	br = branch
+	df = diff
+	dc = diff --cached
+	ls = ls-files
+
+	# Show files ignored by git:
+	ign = ls-files -o -i --exclude-standard
+
+	# I'm comfortable with iso format date
+	lg = log --color --graph --pretty=format:'%C(auto)%h%Creset%C(auto)%d%Creset %s %C(dim green)(%an %ci)%Creset' --abbrev-commit
+	# lg = log --color --graph --pretty=format:'%C(auto)%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+	# lg = !"git lg1"
+	lg1 = !"git lg1-specific --all"
+	lg2 = !"git lg2-specific --all"
+	lg3 = !"git lg3-specific --all"
+
+	lg1-specific = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)'
+	lg2-specific = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
+	lg3-specific = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'
+[core]
+	editor = ec
+[github]
+	user = lbsx
+[push]
+	default = simple
+[merge]
+	tool = bc
+[mergetool]
+	bc = trustExitCode
+[diff]
+	tool = bc
+[difftool]
+	prompt = false
+	bc = trustExitCode
+[log]
+	date = iso
+[credential]
+	helper = cache --timeout=3600
+# [http]
+# 	proxy = socks5://127.0.0.1:7070
+[magit]
+	hideCampaign = true
