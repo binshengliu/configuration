@@ -8,10 +8,7 @@ fi
 
 # User specific environment and startup programs
 
-if [ -z "$SSH_AUTH_SOCK" ] ; then
-  eval "$(ssh-agent -s)"
-  ssh-add
-fi
+eval `~/src/keychain-2.8.5/keychain --eval --agents ssh id_rsa`
 
 export PATH=$HOME/.cargo/bin:$HOME/.local/bin:$HOME/bin:$PATH
 
