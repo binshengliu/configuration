@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Paper Cut Client
+Comment=Paper Cut Client
+Exec=/opt/papercut/pc-client-linux2.sh
+StartupNotify=false
+Type=Application
+Icon=/opt/papercut/lib/icon-toast-notify.png
