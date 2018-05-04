@@ -10,7 +10,8 @@ fi
 
 eval `~/src/keychain-2.8.5/keychain --eval --agents ssh id_rsa`
 
-export PATH=$HOME/.cargo/bin:$HOME/.local/bin:$HOME/bin:$PATH
+INDRI=/research/remote/petabyte/users/binsheng/indri
+export PATH=$INDRI/bin:$HOME/.cargo/bin:$HOME/.local/bin:$HOME/bin:$PATH
 
 export SHELL=$HOME/.local/bin/fish
 exec fish
