@@ -24,8 +24,8 @@ fi
 export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWUNTRACKEDFILES=1
 export ALTERNATE_EDITOR=""
-export GIT_EDITOR=ec
-export EDITOR=ec
+export GIT_EDITOR="emacsclient -a \"\" -c"
+export EDITOR="emacsclient -a \"\" -c"
 export GTAGSFORCECPP=1
 
 # Help ctex find my fonts.
