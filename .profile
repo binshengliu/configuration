@@ -35,3 +35,7 @@ export BIBINPUTS="$BIBINPUTS:~/code/bib"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/src/FlameGraph:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
+
+if [ "$DESKTOP_SESSION" = "i3" ]; then
+    export $(gnome-keyring-daemon -s)
+fi
